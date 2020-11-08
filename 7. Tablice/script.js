@@ -150,17 +150,6 @@ let tab2 = [7, 5, 3, 1];
 console.log(arrSum(tab1, tab2));
 
 
-//Zadanie 9
-
-function numArr(number) {
-    numArr = Array(number).fill(0).reduce(arr=>{ 
-        arr.push(arr.length); return arr},[])
-    return numArr
-};
-
-console.log(numArr(10));
-
-
 //Zadanie 10
 
 
